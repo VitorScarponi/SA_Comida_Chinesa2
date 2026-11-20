@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>SA | Comida Chinesa Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <div class="topline">Culinária oriental • Feito na hora • Entrega com carinho</div>
+  <header>
+    <div class="container">
+      <nav>
+        <a class="logo" href="#inicio"><span class="logo-mark">SA</span><span>SA<small>COMIDA CHINESA</small></span></a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#sobre">Nossa história</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="nav-actions"><a class="icon-btn search-btn" href="#cardapio" aria-label="Ver cardápio">⌕
+            Buscar</a><button class="icon-btn" id="openCart">Sacola <span class="cart-count"
+              id="cartCount">0</span></button></div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Uma experiência oriental</div>
+          <h1>Seu momento.<br><span>Seu sabor.</span></h1>
+          <p class="hero-copy">Pratos inspirados na culinária chinesa, preparados na hora com ingredientes selecionados.
+            Escolha seus favoritos e deixe o sabor chegar até você.</p>
+          <div class="hero-buttons"><a class="btn btn-primary" href="#cardapio">Explorar cardápio <span>↗</span></a><a
+              class="btn btn-outline" href="#sobre">Conheça a SA</a></div>
+        </div>
+        <div class="hero-art">
+          <div class="stamp">SABOR<br>ORIENTAL<br>✦</div>
+          <div class="food-bowl" aria-label="Tigela de comida">🥡</div>
+          <div class="art-label"><span>Autêntico sabor</span><span>SA • Delivery</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">Escolha por categoria</div>
+          <h2>O que vai ser hoje?</h2>
+        </div>
+        <p>Uma opção para cada vontade.</p>
+      </div>
+      <div class="category-row"><a class="category" href="#cardapio">
+          <div class="emoji">🍜</div>
+          <h3>Yakisobas</h3>
+          <p>Quentinhos e cheios de sabor</p>
+        </a><a class="category" href="#cardapio">
+          <div class="emoji">🥡</div>
+          <h3>Combos</h3>
+          <p>Perfeitos para compartilhar</p>
+        </a><a class="category" href="#cardapio">
+          <div class="emoji">🥟</div>
+          <h3>Entradas</h3>
+          <p>Comece com algo especial</p>
+        </a><a class="category" href="#cardapio">
+          <div class="emoji">🍚</div>
+          <h3>Arroz & especiais</h3>
+          <p>Clássicos da casa</p>
+        </a></div>
+    </section>
+    <section class="section container" id="cardapio">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">Feito na hora para você</div>
+          <h2>Favoritos da casa</h2>
+        </div>
+        <p>Adicione à sacola para montar seu pedido.</p>
+      </div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <div class="promo">
+        <div>
+          <h3>Seu próximo favorito está aqui.</h3>
+          <p>Monte seu pedido e confira sua sacola antes de finalizar.</p>
+        </div><button class="btn btn-primary" id="promoCart">Ver minha sacola →</button>
+      </div>
+    </section>
+    <section class="section container" id="sobre">
+      <div class="about-grid">
+        <div class="about-mark">SA</div>
+        <div class="about-text">
+          <div class="eyebrow">Nossa essência</div>
+          <h2>Tradição no sabor.<br>Carinho em cada entrega.</h2>
+          <p>A SA nasceu da vontade de levar a experiência da comida chinesa para mais perto de você. Valorizamos pratos
+            bem preparados, combinações generosas e o cuidado em cada etapa — da cozinha até a sua porta.</p>
+          <p>Nosso compromisso é transformar uma refeição comum em um momento especial.</p>
+          <div class="perks">
+            <div class="perk"><strong>01</strong>Preparo cuidadoso</div>
+            <div class="perk"><strong>02</strong>Ingredientes selecionados</div>
+            <div class="perk"><strong>03</strong>Feito para compartilhar</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contato">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand"><a class="logo" href="#inicio"><span class="logo-mark">SA</span><span>SA<small>COMIDA
+                CHINESA</small></span></a>
+          <p>Seu delivery de comida chinesa para deixar qualquer momento mais gostoso.</p>
+        </div>
+        <div><strong>Explore</strong>
+          <div class="footer-links" style="margin-top:14px"><a href="#inicio">Início</a><a
+              href="#cardapio">Cardápio</a><a href="#sobre">Nossa história</a></div>
+        </div>
+        <div><strong>Fale com a gente</strong>
+          <div class="footer-links" style="margin-top:14px"><a
+              href="mailto:contato@sadelivery.com">contato@sadelivery.com</a><a href="#contato">Atendimento</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 SA Comida Chinesa. Todos os direitos reservados.</span><span>Feito com
+          sabor ♡</span></div>
+    </div>
+  </footer>
+  <div class="toast" id="toast">Adicionado à sacola!</div>
+  <div class="cart-panel" id="cartPanel" aria-hidden="true">
+    <div class="cart-box">
+      <div class="cart-head">
+        <h2>Sua sacola</h2><button class="close-cart" id="closeCart" aria-label="Fechar">✕</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p class="empty">Sua sacola ainda está vazia. Escolha algo delicioso no cardápio!</p>
+      </div>
+      <div class="cart-total"><span>Total</span><span id="cartTotal">R$ 0,00</span></div><button class="btn btn-primary"
+        style="width:100%;margin-top:20px" id="checkout">Continuar pedido →</button>
+      <p style="font-size:.75rem;color:#999;line-height:1.6;margin-top:14px">Demonstração visual: conecte um sistema de
+        pedidos/WhatsApp para receber pedidos reais.</p>
+    </div>
+  </div>
+  <script>
+    // Cardápio padrão: só é usado se o produtos.json não puder ser carregado
+    const produtosPadrao = [
+      { id: 1, name: "Yakisoba tradicional", desc: "Macarrão salteado com legumes e molho especial da casa.", price: 32.90, emoji: "🍜", tag: "Mais pedido" },
+      { id: 2, name: "Yakisoba de frango", desc: "Frango macio, vegetais frescos e aquele molho irresistível.", price: 34.90, emoji: "🥢", tag: "Favorito" },
+      { id: 3, name: "Combo oriental", desc: "Uma combinação generosa para dividir e aproveitar.", price: 49.90, emoji: "🥡", tag: "Para compartilhar" },
+      { id: 4, name: "Rolinho primavera", desc: "Crocante por fora, recheado e perfeito para começar.", price: 18.90, emoji: "🥟", tag: "Entrada" },
+      { id: 5, name: "Arroz chop suey", desc: "Arroz soltinho preparado ao estilo oriental.", price: 27.90, emoji: "🍚", tag: "Clássico" },
+      { id: 6, name: "Legumes salteados", desc: "Uma mistura colorida de vegetais com tempero da casa.", price: 24.90, emoji: "🥦", tag: "Leve" }
+    ];
+    let products = [];
+    const cart = {}; const money = n => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+    const menuGrid = document.getElementById("menuGrid");
+    function renderMenu() { menuGrid.innerHTML = products.length ? products.map(p => `<article class="food-card"><div class="food-visual"><span class="tag">${p.tag}</span>${p.emoji}</div><div class="food-info"><h3>${p.name}</h3><p>${p.desc}</p><div class="food-bottom"><span class="price">${money(p.price)}</span><button class="add-btn" aria-label="Adicionar ${p.name}" onclick="addProduct(${p.id})">+</button></div></div></article>`).join("") : '<p style="color:var(--muted)">Cardápio indisponível no momento.</p>' }
+    function addProduct(id) { cart[id] = (cart[id] || 0) + 1; updateCart(); const toast = document.getElementById("toast"); toast.textContent = products.find(p => p.id === id).name + " adicionado à sacola"; toast.classList.add("show"); setTimeout(() => toast.classList.remove("show"), 1800) }
+    function updateCart() { const count = Object.values(cart).reduce((a, b) => a + b, 0); document.getElementById("cartCount").textContent = count; const items = products.filter(p => cart[p.id]); document.getElementById("cartItems").innerHTML = items.length ? items.map(p => `<div class="cart-item"><div><strong>${p.name}</strong><small>Quantidade: ${cart[p.id]}</small></div><strong>${money(p.price * cart[p.id])}</strong></div>`).join("") : '<p class="empty">Sua sacola ainda está vazia. Escolha algo delicioso no cardápio!</p>'; document.getElementById("cartTotal").textContent = money(items.reduce((sum, p) => sum + p.price * cart[p.id], 0)) }
+    function toggleCart(open) { document.getElementById("cartPanel").classList.toggle("open", open); document.getElementById("cartPanel").setAttribute("aria-hidden", String(!open)) }
+    document.getElementById("openCart").addEventListener("click", () => toggleCart(true)); document.getElementById("promoCart").addEventListener("click", () => toggleCart(true)); document.getElementById("closeCart").addEventListener("click", () => toggleCart(false)); document.getElementById("cartPanel").addEventListener("click", e => { if (e.target.id === "cartPanel") toggleCart(false) });
+    document.getElementById("checkout").addEventListener("click", () => { const count = Object.values(cart).reduce((a, b) => a + b, 0); alert(count ? "Seu pedido está montado! Para receber pedidos reais, conecte este botão ao WhatsApp ou ao sistema da loja." : "Sua sacola está vazia. Adicione um prato antes de continuar.") });
+    document.getElementById("menuBtn").addEventListener("click", () => document.getElementById("navLinks").classList.toggle("open")); document.querySelectorAll("#navLinks a").forEach(a => a.addEventListener("click", () => document.getElementById("navLinks").classList.remove("open")));
+    async function carregarProdutos() {
+      try {
+        const r = await fetch("produtos.json?v=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        products = await r.json();
+      } catch (e) {
+        console.warn("produtos.json indisponível, usando cardápio padrão.", e);
+        products = produtosPadrao;
+      }
+      renderMenu();
+    }
+    carregarProdutos();
+  </script>
+</body>
+
+</html>

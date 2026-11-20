@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Yakisoba tradicional", "desc": "Macarrão salteado com legumes e molho especial da casa.", "price": 32.9, "emoji": "🍜", "tag": "Mais pedido", "category": "Prato" },
+  { "id": 2, "name": "Yakisoba de frango", "desc": "Frango macio, vegetais frescos e aquele molho irresistível.", "price": 34.9, "emoji": "🥢", "tag": "Favorito", "category": "Prato" },
+  { "id": 3, "name": "Combo oriental", "desc": "Uma combinação generosa para dividir e aproveitar.", "price": 49.9, "emoji": "🥡", "tag": "Para compartilhar", "category": "Combo" },
+  { "id": 4, "name": "Rolinho primavera", "desc": "Crocante por fora, recheado e perfeito para começar.", "price": 18.9, "emoji": "🥟", "tag": "Entrada", "category": "Entrada" },
+  { "id": 5, "name": "Arroz chop suey", "desc": "Arroz soltinho preparado ao estilo oriental.", "price": 27.9, "emoji": "🍚", "tag": "Clássico", "category": "Prato" },
+  { "id": 6, "name": "Legumes salteados", "desc": "Uma mistura colorida de vegetais com tempero da casa.", "price": 24.9, "emoji": "🥦", "tag": "Leve", "category": "Prato" }
+]
